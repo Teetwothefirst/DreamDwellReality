@@ -1,11 +1,12 @@
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import Header from './component/header.jsx'
+import Header from './component/header'
+// import header from './component/header'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     // <>
@@ -33,7 +34,11 @@ function App() {
     <>
       <div>
         <Header></Header>
-        change
+        {/* <header></header> */}
+        {/* change */}
+      </div>
+      <div>
+        
       </div>
     </>
   )
