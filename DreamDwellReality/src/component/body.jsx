@@ -3,6 +3,9 @@ import cardImg from '../assets/cardImg1.png'
 import whatweoffer from '../assets/whatweoffer.png'
 import profile1 from '../assets/profile1.png'
 import container from '../assets/container.png'
+import call from '../assets/call.svg'
+import mail from '../assets/mail.svg'
+import contact from '../assets/contact.png'
 
 function Body(){
     return <>
@@ -260,11 +263,32 @@ function Body(){
                         <div className="flex justify-between px-5 md:w-3/5">
                             <div>
                                 <h5 className="text-2xl">Offer</h5>
-                                <p></p>
+                                <p><a href="#">Properties</a></p>
+                                <p><a href="#">Agent</a></p>
+                                <p><a href="#">Locations</a></p>
+                                <p><a href="#">Clients Support</a></p>
+
                             </div>
-                            <div>Company</div>
-                            <div>Quick Links</div>
-                            <div>Get Help</div>
+                            <div>
+                                <h5>Company</h5>
+                                <p><a href="#">Home</a></p>
+                                <p><a href="#">Services</a></p>
+                                <p><a href="#">About Us</a></p>
+                                <p><a href="#">Contact Us</a></p>
+                            </div>
+                            <div>
+                                <h5>Quick Links</h5>
+                                <p><a href="#">Terms and Condition</a></p>
+                                <p><a href="#">Users Guide</a></p>
+                                <p><a href="#">Support Center</a></p>
+                                {/* <p><a href="#">Contact Us</a></p> */}
+                            </div>
+                            <div>
+                            <h5>Get in Touch</h5>
+                                <p><a href="#"><img src={call} alt="" /> Terms and Condition</a></p>
+                                <p><a href="#"><img src={contact} alt="" /> Users Guide</a></p>
+                                <p><a href="#"><img src={mail} alt="" />Support Center</a></p>
+                            </div>
                         </div>
                         <div className="md:w-1/5 flex items-center">
                         <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
