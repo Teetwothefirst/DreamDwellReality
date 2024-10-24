@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Header from './component/header'
 // import header from './component/header'
 import './App.css'
-
+import Body from './component/body'
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -38,7 +38,7 @@ function App() {
         {/* change */}
       </div>
       <div>
-        
+        <Body></Body>
       </div>
     </>
   )
