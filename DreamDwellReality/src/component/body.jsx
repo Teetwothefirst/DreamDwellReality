@@ -176,7 +176,7 @@ function Body(){
                                     <div className="absolute bottom-0 bg-green-300 w-full h-2/5 px-10 pt-2 pb-5 radius-tb-corner">
                                         <p className="font-bold">Mark Godwin</p>
                                         <small>Listing 12 Properties</small>
-                                        <div className="flex gap-2">
+                                        <div className="flex gap-2 text-white">
                                             <i class="bi bi-twitter-x"></i>
                                             <i class="bi bi-facebook"></i>
                                             <i class="bi bi-youtube"></i>
@@ -192,7 +192,7 @@ function Body(){
                                     <div className="absolute bottom-0 bg-green-300 w-full h-2/5 px-10 pt-2 pb-5 radius-tb-corner">
                                         <p className="font-bold">Mark Godwin</p>
                                         <small>Listing 12 Properties</small>
-                                        <div className="flex gap-2">
+                                        <div className="flex gap-2 text-white">
                                             <i class="bi bi-twitter-x"></i>
                                             <i class="bi bi-facebook"></i>
                                             <i class="bi bi-youtube"></i>
@@ -208,7 +208,7 @@ function Body(){
                                     <div className="absolute bottom-0 bg-green-300 w-full h-2/5 px-10 pt-2 pb-5 radius-tb-corner">
                                         <p className="font-bold">Mark Godwin</p>
                                         <small>Listing 12 Properties</small>
-                                        <div className="flex gap-2">
+                                        <div className="flex gap-2 text-white">
                                             <i class="bi bi-twitter-x"></i>
                                             <i class="bi bi-facebook"></i>
                                             <i class="bi bi-youtube"></i>
@@ -242,11 +242,13 @@ function Body(){
 
             {/* Section 6 - footer */}
 
-            <div className="mt-20">
-                <div className="bg-slate-900 md:flex justify-between text-white">
-                        <div>
+            <div className="mt-20 bg-zinc-800 text-white footer">
+                <div className="md:flex justify-between">
+                        <div className="w-2/5">
                         <h1 className="diplomata-regular text-white">DreamDwell <br />Realty</h1>
+                        <br />
                         <p>At Dreamdwell Estate Agency, we specialize in helping you find your perfect home. Whether you're buying, selling, or renting, our dedicated team provides expert guidance and personalized service to meet your unique needs.</p>
+                        <br />
                         <div className="flex gap-2">
                             <i class="bi bi-twitter-x"></i>
                             <i class="bi bi-facebook"></i>
@@ -255,7 +257,33 @@ function Body(){
                             <i class="bi bi-instagram"></i>
                         </div>
                         </div>
+                        <div className="flex justify-between px-5 md:w-3/5">
+                            <div>
+                                <h5 className="text-2xl">Offer</h5>
+                                <p></p>
+                            </div>
+                            <div>Company</div>
+                            <div>Quick Links</div>
+                            <div>Get Help</div>
+                        </div>
+                        <div className="md:w-1/5 flex items-center">
+                        <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.299805" width="50" height="50" rx="25" fill="#38AD0D"/>
+                            <path d="M17 21.902H23.8V37.2482L27.217 37.2998V21.902H34L25.5 13.2998L17 21.902Z" fill="white"/>
+                            </svg>
+
+                        </div>
                 </div>
+                <hr className="py-3"/>
+                <div className="text-center">
+                    <p className="flex justify-center gap-2">Copyright ©2024 All rights reserved | This template is made with     
+                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.99997 18.2998L9.57809 18.0186C7.57278 16.6793 5.03544 15.1657 3.15622 12.9411C1.17575 10.5973 0.225594 8.19027 0.249969 5.58168C0.2795 2.66887 2.61528 0.299805 5.45684 0.299805C7.712 0.299805 9.21153 1.6123 9.99997 2.55965C10.7884 1.6123 12.2879 0.299805 14.5431 0.299805C17.3847 0.299805 19.7204 2.66887 19.75 5.58027C19.7762 8.19027 18.8261 10.5959 16.8437 12.9396C14.9645 15.1657 12.4272 16.6793 10.4218 18.0186L9.99997 18.2998Z" fill="#38AD0D"/>
+                    </svg>
+                    by Belsoft System
+                    </p>
+                    <p>Built by Adetomiwa Adejumo </p>
+                    </div>
             </div>
         </div>
     </>
