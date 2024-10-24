@@ -230,10 +230,10 @@ function Body(){
 
 
             {/* Section 5 */}
-            <div className="px-28 mt-20">
-                <div className="relative px-10">
-                    <img src={container} alt="" className="rounded-2xl" />
-                    <div className="absolute top-48 w-full text-center">
+            <div className="md:px-28 mt-20">
+                <div className="md:relative px-10">
+                    <img src={container} alt="" className="w-full md:rounded-2xl" />
+                    <div className="md:absolute top-48 w-full text-center">
                         <h1 className="text-3xl font-bold text-white">Get The Latest News and Dreamdwell Trends </h1>
 
                         <div className='mt-5 flex justify-center relative'>
@@ -248,7 +248,7 @@ function Body(){
 
             <div className="mt-20 bg-zinc-800 p-5 text-white footer">
                 <div className="md:flex justify-between">
-                        <div className="w-2/5">
+                        <div className="mb-10 md:w-2/5">
                         <h1 className="diplomata-regular text-white">DreamDwell <br />Realty</h1>
                         <br />
                         <p>At Dreamdwell Estate Agency, we specialize in helping you find your perfect home. Whether you're buying, selling, or renting, our dedicated team provides expert guidance and personalized service to meet your unique needs.</p>
@@ -261,7 +261,7 @@ function Body(){
                             <i class="bi bi-instagram"></i>
                         </div>
                         </div>
-                        <div className="flex justify-between gap-3 px-5 md:w-3/5">
+                        <div className="flex flex-col justify-evenly md:flex justify-between gap-3 px-5 w-3/5">
                             <div>
                                 <h5 className="text-2xl">Offer</h5>
                                 <p><a href="#">Properties</a></p>
