@@ -6,12 +6,12 @@ import Contact from '../assets/contact.png'
 
 function header(){
    return <>
-        <div className="relative">
+        <div className="md:relative">
             <img src={bgImg} alt="" width={`100%`}/>
-            <div className='w-full px-5 absolute top-10 text-white'>
+            <div className='absolute top-0 w-full md:absolute top-10 px-5 text-white'>
                 <div className='md:flex justify-between'>
                 <h1 className="diplomata-regular">DreamDwell <br />Realty</h1>
-                <div className='flex gap-5'>
+                <div className='hidden md:flex gap-5'>
                     <a href="">Home</a>
                     <a href="">Properties</a>
                     <a href="">Services</a>
@@ -20,10 +20,10 @@ function header(){
                 </div>
                 </div>
 
-                <div className='mt-40 flex justify-center align-center'>
-                    <div className='w-3/4'>
-                    <h1 className='text-center text-6xl'>Discover an Ideal Home</h1>
-                    <p className='text-center text-xl'>Finding your perfect residence is more than just a search; it's about identifying a place where your dreams and lifestyle align. Consider key aspects like location, amenities, and design that cater to your needs and preferences. With careful planning and a clear vision, you can uncover a home that offers comfort, functionality, and a sense of belonging, making it a true sanctuary for you and your family.</p>
+                <div className='w-full md:mt-40 flex justify-center align-center'>
+                    <div className='md:w-3/4'>
+                    <h1 className='text-xl md:text-center text-6xl'>Discover an Ideal Home</h1>
+                    <p className='text-lg md:text-center text-xl'>Finding your perfect residence is more than just a search; it's about identifying a place where your dreams and lifestyle align. Consider key aspects like location, amenities, and design that cater to your needs and preferences. With careful planning and a clear vision, you can uncover a home that offers comfort, functionality, and a sense of belonging, making it a true sanctuary for you and your family.</p>
                         <div className='mt-5 flex justify-center relative'>
                             <input type="search" name="" id=""  className='rounded-xl p-3 w-1/3'/>
                             <button className='rounded px-4 py-2 rainbow-green h-full absolute right-80 me-1'>Search</button>
