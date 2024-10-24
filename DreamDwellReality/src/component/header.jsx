@@ -1,5 +1,8 @@
 import bgImg from '../assets/bg-img.png'
 import homeSingle from '../assets/home-single.svg'
+import homeMultiple from '../assets/home-multiple.svg'
+import Building from '../assets/building.svg'
+import Contact from '../assets/contact.png'
 
 function header(){
    return <>
@@ -28,13 +31,33 @@ function header(){
                     </div>         
                 </div>
             </div>
-            <div className="absolute bottom-0 w-full">
+            <div className="absolute bottom-0 w-full md:flex justify-around px-24">
+                
                 <div className='px-3 py-4 bg-white w-48 rounded-es-2xl rounded-se-2xl flex justify-center align-center'>
-                    <div className=''>
+                    <div className='flex flex-col justify-center items-center'>
                         <img src={homeSingle} alt="" />
-                        <p className='block'>New Properties</p>
+                        <p className='block mt-2'>New Properties</p>
                     </div>
                 </div>
+                <div className='px-3 py-4 bg-white w-48 rounded-es-2xl rounded-se-2xl flex justify-center align-center'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <img src={homeMultiple} alt="" />
+                        <p className='block'>House for Sale</p>
+                    </div>
+                </div>
+                <div className='px-3 py-4 bg-white w-48 rounded-es-2xl rounded-se-2xl flex justify-center align-center'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <img src={Building} alt="" />
+                        <p className='block mt-2'>Building for Sales</p>
+                    </div>
+                </div>
+                <div className='px-3 py-4 bg-white w-48 rounded-es-2xl rounded-se-2xl flex justify-center align-center'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <img src={Contact} alt="" />
+                        <p className='block mt-2'>Contact Agent</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </>

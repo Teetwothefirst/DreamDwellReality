@@ -6,6 +6,7 @@ import container from '../assets/container.png'
 import call from '../assets/call.svg'
 import mail from '../assets/mail.svg'
 import contact from '../assets/contact.png'
+import location from '../assets/location.svg'
 
 function Body(){
     return <>
@@ -245,7 +246,7 @@ function Body(){
 
             {/* Section 6 - footer */}
 
-            <div className="mt-20 bg-zinc-800 text-white footer">
+            <div className="mt-20 bg-zinc-800 p-5 text-white footer">
                 <div className="md:flex justify-between">
                         <div className="w-2/5">
                         <h1 className="diplomata-regular text-white">DreamDwell <br />Realty</h1>
@@ -260,7 +261,7 @@ function Body(){
                             <i class="bi bi-instagram"></i>
                         </div>
                         </div>
-                        <div className="flex justify-between px-5 md:w-3/5">
+                        <div className="flex justify-between gap-3 px-5 md:w-3/5">
                             <div>
                                 <h5 className="text-2xl">Offer</h5>
                                 <p><a href="#">Properties</a></p>
@@ -270,24 +271,26 @@ function Body(){
 
                             </div>
                             <div>
-                                <h5>Company</h5>
+                                <h5 className="text-2xl">Company</h5>
                                 <p><a href="#">Home</a></p>
                                 <p><a href="#">Services</a></p>
                                 <p><a href="#">About Us</a></p>
                                 <p><a href="#">Contact Us</a></p>
                             </div>
                             <div>
-                                <h5>Quick Links</h5>
+                                <h5 className="text-2xl">Quick Links</h5>
                                 <p><a href="#">Terms and Condition</a></p>
                                 <p><a href="#">Users Guide</a></p>
                                 <p><a href="#">Support Center</a></p>
                                 {/* <p><a href="#">Contact Us</a></p> */}
                             </div>
                             <div>
-                            <h5>Get in Touch</h5>
-                                <p><a href="#"><img src={call} alt="" /> Terms and Condition</a></p>
-                                <p><a href="#"><img src={contact} alt="" /> Users Guide</a></p>
-                                <p><a href="#"><img src={mail} alt="" />Support Center</a></p>
+                            <h5 className="text-2xl">Get in Touch</h5>
+                                <div className="md:flex flex-col gap-3">
+                                <p><a href="#" className="flex gap-2"><img src={location} alt="" /> <span>No. 24 James’s Avenue, Gwarimpa, Abuja, Nigeria </span></a></p>
+                                <p><a href="#" className="flex gap-2"><img src={call} alt="" /> <span>+234-813-3540-544</span></a></p>
+                                <p><a href="#" className="flex gap-2"><img src={mail} alt="" /><span>info@yourdomain.com</span></a></p>
+                                </div>
                             </div>
                         </div>
                         <div className="md:w-1/5 flex items-center">
