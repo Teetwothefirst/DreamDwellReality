@@ -261,7 +261,8 @@ function Body(){
                             <i class="bi bi-instagram"></i>
                         </div>
                         </div>
-                        <div className="flex flex-col justify-evenly md:flex justify-between gap-3 px-5 w-3/5">
+                        {/* flex flex-col justify-evenly */}
+                        <div className="md:flex justify-between gap-3 px-5 w-3/5">
                             <div>
                                 <h5 className="text-2xl">Offer</h5>
                                 <p><a href="#">Properties</a></p>
