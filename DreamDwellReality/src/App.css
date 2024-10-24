@@ -60,5 +60,18 @@ body{
 .text-custom-green{
   color: #38AD0D;
 }
+.border-radEdit{
+  border-radius: 0 4.5rem;
+}
+.border-radImg{
+  border-radius: 0 1.5rem 0 4.5rem;
+}
+.radius-tb-corner{
+  border-radius: 0 5.5rem 1.5rem 5.5rem;
+}
+.radius-tb-cornerImg{
+  border-radius: 1.5rem 1.5rem 1.5rem 5.5rem;
+}
+
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
