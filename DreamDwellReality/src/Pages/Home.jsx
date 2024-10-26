@@ -1,6 +1,12 @@
+import Header from '../component/header'
+import Body from '../component/body'
+
 function Home(){
     return<>
-        <div></div>
+        <div>
+            <Header></Header>
+            <Body></Body>
+        </div>
     </>
 }
 

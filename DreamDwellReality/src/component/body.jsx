@@ -7,7 +7,7 @@ import call from '../assets/call.svg'
 import mail from '../assets/mail.svg'
 import contact from '../assets/contact.png'
 import location from '../assets/location.svg'
-
+// import Whatweoffer from "./whatWeOffer";
 function Body(){
     return <>
         <div className="mt-20">
@@ -101,12 +101,12 @@ function Body(){
             <br />
             <br />
             <div className="mt-20">
-                <div className="md:flex gap-5 px-24">
+                <div className="w-full md:flex gap-5 px-24">
 
                     <div><img src={whatweoffer} alt="" className="h-3/4" /></div>
 
                     <div className="w-full md:w-1/2 my-5">
-                        <div className="md:flex flex-col gap-40">
+                        <div className="w-full md:flex flex-col gap-40">
                         <div className="text-center">
                             <h4 className="text-blue-700 text-xl"><i className="bi bi-diamond text-sm"></i> <span className="px-3">What we offer</span><i className="bi bi-diamond text-sm"></i></h4>
                             <h3 className="text-custom-green text-3xl font-bold">We Bring Dream Homes To Reality</h3>
@@ -137,6 +137,7 @@ function Body(){
                     </div>
                 </div>
             </div>
+            {/* <Whatweoffer></Whatweoffer> */}
             {/* Section 3*/}
             <div>
                 <div className="text-center">

@@ -3,6 +3,7 @@ import homeSingle from '../assets/home-single.svg'
 import homeMultiple from '../assets/home-multiple.svg'
 import Building from '../assets/building.svg'
 import Contact from '../assets/contact.png'
+import { Link } from 'react-router-dom'
 
 function header(){
    return <>
@@ -15,7 +16,8 @@ function header(){
                     <a href="">Home</a>
                     <a href="">Properties</a>
                     <a href="">Services</a>
-                    <a href="">About Us</a>
+                    {/* <a href="">About Us</a> */}
+                    <Link to={'/about'}>About</Link>
                     <a href="">Contact Us</a>
                 </div>
                 </div>
